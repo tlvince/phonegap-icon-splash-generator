@@ -1,0 +1,28 @@
+# PhoneGap Icon Generator
+
+Generate PhoneGap icon and splash screens.
+
+## Usage
+
+Takes three position parameters:
+
+1. A path to an icon image. Assumes a square 2048x2048 png file.
+2. A background fill colour hex string (used in splash screens).
+3. *Optional*. A destination directory, otherwise the current working directory.
+
+Copy the resulting `res` directory within your PhoneGap's `www` directory and
+merge the provided `config.xml`.
+
+## Dependencies
+
+* `convert` from the ImageMagick package
+
+## Author
+
+Copyright 2012 Tom Vincent <http://tlvince.com/contact>
+
+## License
+
+Released under the [MIT License][license].
+
+  [license]: http://tlvince.mit-license.org/
