@@ -10,9 +10,6 @@ usage() { echo "usage: $0 icon colour [dest_dir]"; exit 1; }
 devices=android,bada,bada-wac,blackberry,ios,webos,windows-phone
 eval mkdir -p "$3/res/{icon,screen}/{$devices}"
 
-# Show the user some progress by outputing all commands being run.
-set -x
-
 convert -background none "$1" -resize 128x128 "$3/res/icon/icon.png"
 convert -background none "$1" -resize 36x36 "$3/res/icon/android/icon-36-ldpi.png"
 convert -background none "$1" -resize 72x72 "$3/res/icon/android/icon-72-hdpi.png"
