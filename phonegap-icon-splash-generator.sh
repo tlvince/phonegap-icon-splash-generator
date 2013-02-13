@@ -1,6 +1,6 @@
 #!/bin/bash
 # Generate PhoneGap icon and splash screens.
-# Copyright 2012 Tom Vincent <http://tlvince.com/contact>
+# Copyright 2013 Tom Vincent <http://tlvince.com/contact>
 
 usage() { echo "usage: $0 icon colour [dest_dir]"; exit 1; }
 
