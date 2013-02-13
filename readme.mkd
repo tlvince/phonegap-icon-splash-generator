@@ -6,8 +6,10 @@ Generate PhoneGap icon and splash screens.
 
 Takes three position parameters:
 
-1. A path to an icon image. Assumes a square 2048x2048 png file.
-2. A background fill colour hex string (used in splash screens).
+1. A path to an icon image. Should be a square with a recommended size of
+   2048x2048 in any file format that ImageMagick understands (e.g. `png`, `svg`)
+2. A background fill colour hex string (used in splash screens). The icon will
+   be centered on top of a single-colored background.
 3. *Optional*. A destination directory, otherwise the current working directory.
 
 Copy the resulting `res` directory within your PhoneGap's `www` directory and
