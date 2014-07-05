@@ -43,7 +43,7 @@ $convert "$1" -resize 48x48 "$3/res/icon/windows-phone/icon-48.png"
 $convert "$1" -resize 173x173 "$3/res/icon/windows-phone/icon-173-tile.png"
 $convert "$1" -resize 62x62 "$3/res/icon/windows-phone/icon-62-tile.png"
 
-convert="convert $1 -background $2 -gravity center"
+convert="convert -background $2 $1 -gravity center"
 $convert -resize 512x512 -extent 1280x720 "$3/res/screen/android/screen-xhdpi-landscape.png"
 $convert -resize 256x256 -extent 480x800 "$3/res/screen/android/screen-hdpi-portrait.png"
 $convert -resize 128x128 -extent 320x200 "$3/res/screen/android/screen-ldpi-landscape.png"
