@@ -85,9 +85,9 @@ $convert -resize 128x128 -extent 225x225 "$3/res/screen/blackberry/screen-225.pn
 
 $convert -resize 256x256   -extent 320x480 "$3/res/screen/ios/Default~iphone.png"
 $convert -resize 512x512   -extent 640x960 "$3/res/screen/ios/Default@2x~iphone.png"
-$convert -resize 1024x1024 -extent 768x1024 "$3/res/screen/ios/Default-Portrait~ipad.png"
+$convert -resize 512x512   -extent 768x1024 "$3/res/screen/ios/Default-Portrait~ipad.png"
 $convert -resize 1024x1024 -extent 1536x2048 "$3/res/screen/ios/Default-Portrait@2x~ipad.png"
-$convert -resize 1024x1024 -extent 1024x768 "$3/res/screen/ios/Default-Landscape~ipad.png"
+$convert -resize 512x512   -extent 1024x768 "$3/res/screen/ios/Default-Landscape~ipad.png"
 $convert -resize 1024x1024 -extent 2048x1536 "$3/res/screen/ios/Default-Landscape@2x~ipad.png"
 $convert -resize 512x512   -extent 640x1136 "$3/res/screen/ios/Default-568h@2x~iphone.png"
 
