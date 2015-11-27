@@ -15,8 +15,13 @@ Takes three position parameters:
 Copy the resulting `res` directory within your PhoneGap's `www` directory and
 merge the provided `config.xml`.
 
+## Support
+
+Support for Android, iOS and Windows Phone
+
 ## Dependencies
 
+*  phonegap version cli-5.2.0
 * `convert` from the ImageMagick package
 
 ## Author
