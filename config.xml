@@ -51,10 +51,13 @@
         <splash src="res/screen/android/screen-xxhdpi.png" density="xxhdpi" />
     </platform>
 
-    <platform name="winphone">
+    <platform name="wp8">
         <icon src="res/icon/windows-phone/icon-48.png" />
         <icon src="res/icon/windows-phone/icon-173-tile.png" role="background" />
+        <icon src="res/icon/windows-phone/ApplicationIcon.png" width="99" height="99" />
+        <icon src="res/icon/windows-phone/Background.png" width="159" height="159" />
         <splash src="res/screen/windows-phone/screen-portrait.jpg" />
+        <splash src="res/screen/windows-phone/SplashScreenImage.jpg" width="768" height="1280"/>
     </platform>
 
 </widget>

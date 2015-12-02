@@ -54,6 +54,8 @@ $convert "$1" -resize 180x180 	"$3/assets/res/icon/ios/icon-40@4.png"
 # Windows Phone icon
 $convert "$1" -resize 48x48     "$3/assets/res/icon/windows-phone/icon-48.png"
 $convert "$1" -resize 62x62     "$3/assets/res/icon/windows-phone/icon-62-tile.png"
+$convert "$1" -resize 99x99     "$3/assets/res/icon/windows-phone/ApplicationIcon.png"
+$convert "$1" -resize 159x159   "$3/assets/res/icon/windows-phone/Background.png"
 $convert "$1" -resize 173x173   "$3/assets/res/icon/windows-phone/icon-173-tile.png"
 
 ### SPLASH SCREENS
@@ -88,3 +90,4 @@ $convert -resize 512x512 -extent 2732x2048      "$3/assets/res/splash/ios/Defaul
 
 # Windows Phone splash screen
 $convert -resize 256x256 -extent 480x800        "$3/assets/res/splash/windows-phone/screen-portrait.jpg"
+$convert -resize 512x512 -extent 768x1280       "$3/assets/res/splash/windows-phone/SplashScreenImage.jpg"
