@@ -65,6 +65,10 @@ convert="convert $1 -background $2 -gravity center"
 $convert -resize 1024x1024 -extent 1536x2008 	"$3/assets/res/splash/ios/Default-Portrait@2x.png"
 
 # Android splash screens
+$convert -resize 512x512 -extent 1920x1280   "$3/assets/res/splash/android/screen-xxxhdpi-landscape.png"
+$convert -resize 512x512 -extent 1280x1920   "$3/assets/res/splash/android/screen-xxxhdpi-portrait.png"
+$convert -resize 512x512 -extent 1600x960   "$3/assets/res/splash/android/screen-xxhdpi-landscape.png"
+$convert -resize 512x512 -extent 960x1600   "$3/assets/res/splash/android/screen-xxhdpi-portrait.png"
 $convert -resize 512x512 -extent 1280x720   "$3/assets/res/splash/android/screen-xhdpi-landscape.png"
 $convert -resize 512x512 -extent 720x1280   "$3/assets/res/splash/android/screen-xhdpi-portrait.png"
 $convert -resize 256x256 -extent 800x480    "$3/assets/res/splash/android/screen-hdpi-landscape.png"
