@@ -11,7 +11,7 @@ usage() { echo "usage: $0 icon colour [dest_dir usually 'res']"; exit 1; }
 set -x
 
 devices=android,ios,windows-phone
-eval mkdir -p "$3/{icon,splash}/{$devices}"
+eval mkdir -p "$3/{$devices}"
 
 # Explicitly set background in case image is transparent (see: #3)
 convert="convert -background none"
