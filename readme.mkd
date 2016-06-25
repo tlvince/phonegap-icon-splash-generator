@@ -1,6 +1,11 @@
 # PhoneGap Icon Generator
 
-Generate PhoneGap icon and splash screens.
+[![Project unmaintained][unmaintained-image]][unmaintained-url]
+
+[unmaintained-url]: .github/ISSUE_TEMPLATE.md
+[unmaintained-image]: https://img.shields.io/badge/project-unmaintained-red.svg
+
+> Generate PhoneGap icon and splash screens.
 
 ## Usage
 
