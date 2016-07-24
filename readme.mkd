@@ -17,8 +17,8 @@ Takes three position parameters:
    be centered on top of a single-colored background.
 3. *Optional*. A destination directory, otherwise the current working directory.
 
-Copy the resulting `res` directory within your PhoneGap's `www` directory and
-merge the provided `config.xml`.
+Copy the resulting `res` directory within your PhoneGap's directory and
+merge the provided `config.xml`. Install the phonegap splash screen plugins.
 
 ## Dependencies
 
@@ -26,7 +26,7 @@ merge the provided `config.xml`.
 
 ## Author
 
-Copyright 2012 Tom Vincent <http://tlvince.com/contact>
+Copyright 2012, 2015 Tom Vincent <http://tlvince.com/contact>
 
 ## License
 
