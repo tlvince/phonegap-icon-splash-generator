@@ -1,28 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget>
-    <icon src="res/icon/icon.png" />
-    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
-    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
-    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
-    <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
-    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
-    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets">
 
-    <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+    <icon src="res/icon.png" />
+    <icon src="res/splash.png" />
+
+    <platform name="ios">
+        <icon src="res/icon/ios/icon.png" width="57" height="57" />
+        <icon src="res/icon/ios/icon@2x.png" width="114" height="114" />
+        <icon src="res/icon/ios/icon-40.png" width="40" height="40" />
+        <icon src="res/icon/ios/icon-60.png" width="60" height="60" />
+        <icon src="res/icon/ios/icon-50.png" width="50" height="50" />
+        <icon src="res/icon/ios/icon-40@2x.png" width="80" height="80" />
+        <icon src="res/icon/ios/icon-50@2x.png" width="100" height="100" />
+        <icon src="res/icon/ios/icon-60@2x.png" width="120" height="120" />
+        <icon src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
+        <icon src="res/icon/ios/icon-72.png" width="72" height="72" />
+        <icon src="res/icon/ios/icon-72@2x.png" width="144" height="144" />
+        <icon src="res/icon/ios/icon-76.png" width="76" height="76" />
+        <icon src="res/icon/ios/icon-76@2x.png" width="152" height="152" />
+        <icon src="res/icon/ios/icon-167.png" width="167" height="167" />
+        <icon src="res/icon/ios/icon-small.png" width="29" height="29" />
+        <icon src="res/icon/ios/icon-small@2x.png" width="58" height="58" />
+        <icon src="res/icon/ios/icon-small.png" width="29" height="29" />
+        <icon src="res/icon/ios/icon-small@2x.png" width="58" height="58" />
+        <splash src="res/screens/ios/Default.png" width="320" height="480" />
+        <splash src="res/screens/ios/Default@2x.png" width="640" height="960" />
+        <splash src="res/screens/ios/Default-568h@2x.png" width="640" height="1136" />
+        <splash src="res/screens/ios/Default-Portrait.png" width="768" height="1024" />
+        <splash src="res/screens/ios/Default-Portrait@2x.png" width="1536" height="2048" />
+        <splash src="res/screens/ios/Default-Landscape.png" width="1024" height="768" />
+        <splash src="res/screens/ios/Default-Landscape@2x.png" width="2048" height="1536" />
+        <splash src="res/screens/ios/Default-667h@2x.png" width="750" height="1334" />
+        <splash src="res/screens/ios/Default-Portrait-736h@3x.png" width="1242" height="2208" />
+        <splash src="res/screens/ios/Default-Landscape-736h@3x.png" width="2208" height="1242" />
+        <splash src="res/screens/ios/Default-Portrait-Pro" width="2048" height="2732" />
+        <splash src="res/screens/ios/Default-Landscape-Pro.png" width="2732" height="2048" />
+    </platform>
+
+    <platform name="android">
+        <icon src="res/icon/android/icon-36-ldpi.png" density="ldpi" />
+        <icon src="res/icon/android/icon-48-mdpi.png" density="mdpi" />
+        <icon src="res/icon/android/icon-72-hdpi.png" density="hdpi" />
+        <icon src="res/icon/android/icon-96-xhdpi.png" density="xhdpi" />
+        <icon src="res/icon/android/icon-144-xxhdpi.png" density="xxhdpi" />
+        <icon src="res/icon/android/icon-192-xxhdpi.png" density="xxxhdpi" />
+        <splash src="res/screen/android/screen-ldpi.png" density="ldpi" />
+        <splash src="res/screen/android/screen-mdpi.png" density="mdpi" />
+        <splash src="res/screen/android/screen-hdpi.png" density="hdpi" />
+        <splash src="res/screen/android/screen-xhdpi.png" density="xhdpi" />
+        <splash src="res/screen/android/screen-xxhdpi.png" density="xxhdpi" />
+    </platform>
+
+    <platform name="wp8">
+        <icon src="res/icon/windows-phone/icon-48.png" />
+        <icon src="res/icon/windows-phone/icon-173-tile.png" role="background" />
+        <icon src="res/icon/windows-phone/ApplicationIcon.png" width="99" height="99" />
+        <icon src="res/icon/windows-phone/Background.png" width="159" height="159" />
+        <splash src="res/screen/windows-phone/screen-portrait.jpg" />
+        <splash src="res/screen/windows-phone/SplashScreenImage.jpg" width="768" height="1280"/>
+    </platform>
+
 </widget>
